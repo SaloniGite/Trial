@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page1, .page3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(222, 124, 237);
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    flex-wrap: nowrap;
+    
+}
+
+.page2 h1{
+    font-size: 10vw;
+
+}
+.main {
+    margin-left: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.page2 .S1 {
+   
+    width: 60%;
+    height: 60%;
+    background-color: brown;
+    flex: 0 0 auto; /* Ensure divs do not shrink */
+}
