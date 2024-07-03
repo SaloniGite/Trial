@@ -102,7 +102,7 @@ conatiner=""
 peopleData.forEach(function(e)
 {
     
-    container+= `<div class="card">
+    container += `<div class="card">
     <div class="header"><i class="ri-more-2-fill"></i></div>
     <img src="${e.image}"
         alt="">
